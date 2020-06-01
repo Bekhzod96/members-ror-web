@@ -17,5 +17,8 @@
     <p class="alert"><%= alert %></p>
     <% end %>
     <%= yield %>
+    <%= session[:user_id] %>
+
+    <%= current_user.id %>
   </body>
 </html>

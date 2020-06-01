@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :user_signed_in?, only: [:new, :create]
+
 
   # GET /posts
   # GET /posts.json
@@ -24,7 +26,7 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(post_params)
+    @post = Post.new(params[:post.title], params[:post.body], current_user.id)
 
     respond_to do |format|
       if @post.save
