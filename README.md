@@ -1,24 +1,50 @@
 # README
+**Memebers - Only**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In these projects, we’ll be working to implement authentication systems so users can only access areas of a site they are authorized to.
+We will build an application that allows users to create posts and the authors of the posts are displayed only if as a User you are logged in.
 
-Things you may want to cover:
 
-* Ruby version
+>Project was created using Ruby on Rails. Users can post in the blog which was implemented. Additionally, Authorized users are able to modify the posts but posts can read anybody but he doesn't know about authors of the post.  
 
-* System dependencies
+>Devise was used authentication and authorization users securely.
 
-* Configuration
+## Built With
 
-* Database creation
+- Rails 6.0.3
 
-* Database initialization
+## Getting start
 
-* How to run the test suite
+In order to start with the project:
 
-* Services (job queues, cache servers, search engines, etc.)
+1. You need to have Rails environment installed. [Click here for instructions](https://github.com/Bekhzod96/members-only.git)
+2. Clone [this repository :blue_book:](https://github.com/Bekhzod96/members-only.git)
+3. Run the migration to database
+    - rails db:migrate
+4. Run the rails server
+    - rails server
+		
 
-* Deployment instructions
+## Authors
 
-* ...
+👤 **Bekhzod Akhrorov**
+
+- Github:[@Bekhzod96](https://github.com/Bekhzod96)
+- Twitter: [ @Begzod](https://twitter.com/25d47e8987f740b)
+- Linkedin:[@Bekhzod AKhrorov](https://www.linkedin.com/in/bekhzod-akhrorov/)
+
+
+👤 **Javier Botero**
+
+- Github: [@Javierbotero](https://github.com/javierbotero)
+- Twitter: [@@Javierbotero1](https://twitter.com/JavierBotero1)
+- Linkedin: [Javierbotero](https://www.linkedin.com/in/javier-botero-044686155/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
