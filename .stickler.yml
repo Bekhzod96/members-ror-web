@@ -8,10 +8,10 @@ linters:
 # add the files here you want to be ignored by stickler
 files:
   ignore:
-    - "db/**/*"
     - "bin/*"
-    - "test/**/*"
-    - "config/**/*"
+    - "test/*"
+    - "db/*"
+    - "config/*"
     - "Guardfile"
     - "Gemfile"
     - "Rakefile"
