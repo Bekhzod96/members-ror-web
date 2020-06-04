@@ -8,15 +8,17 @@ linters:
 # add the files here you want to be ignored by stickler
 files:
   ignore:
+    - "db/**/*"
     - "bin/*"
-    - "test/*"
-    - "db/*"
-    - "config/*"
+    - "test/**/*"
+    - "config/**/*"
     - "Guardfile"
     - "Gemfile"
     - "Rakefile"
     - "README.md"
     - "node_modules/**/*"
+    - "app/views/**/*"
+    - "app/controllers/users/*"
 
 
 # PLEASE DO NOT enable auto fixing options
