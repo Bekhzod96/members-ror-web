@@ -1,10 +1,24 @@
+# add the linters you want stickler to use for this project
 linters:
   rubocop:
-    fixer: true
-  csslint: {  }
+    display_cop_names: true
+    # indicate where is the config file for rubocop
+    config: './rubocop.yml'
+
+# add the files here you want to be ignored by stickler
 files:
   ignore:
-    - 'bower_components/*'
-    - 'node_modules/*'
+    - "bin/*"
+    - "test/*"
+    - "db/*"
+    - "config/*"
+    - "Guardfile"
+    - "Gemfile"
+    - "Rakefile"
+    - "README.md"
+    - "node_modules/**/*"
+    - "app/views/**/*"
+    - "app/controllers/users/*"
+
 fixers:
   enable: true
